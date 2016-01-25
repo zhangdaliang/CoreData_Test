@@ -16,6 +16,8 @@
 		7E5EE7E81C55F77A007FDDFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5EE7E61C55F77A007FDDFB /* LaunchScreen.storyboard */; };
 		7E5EE7F31C55F77A007FDDFB /* CoreData_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EE7F21C55F77A007FDDFB /* CoreData_TestTests.m */; };
 		7E5EE7FE1C55F77A007FDDFB /* CoreData_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EE7FD1C55F77A007FDDFB /* CoreData_TestUITests.m */; };
+		7E5EE80F1C55F7BD007FDDFB /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EE80C1C55F7BD007FDDFB /* Student+CoreDataProperties.m */; };
+		7E5EE8101C55F7BD007FDDFB /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EE80E1C55F7BD007FDDFB /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7E5EE7F91C55F77A007FDDFB /* CoreData_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5EE7FD1C55F77A007FDDFB /* CoreData_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreData_TestUITests.m; sourceTree = "<group>"; };
 		7E5EE7FF1C55F77A007FDDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5EE80B1C55F7BD007FDDFB /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7E5EE80C1C55F7BD007FDDFB /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7E5EE80D1C55F7BD007FDDFB /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7E5EE80E1C55F7BD007FDDFB /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 		7E5EE7D41C55F77A007FDDFB /* CoreData_Test */ = {
 			isa = PBXGroup;
 			children = (
+				7E5EE80B1C55F7BD007FDDFB /* Student+CoreDataProperties.h */,
+				7E5EE80C1C55F7BD007FDDFB /* Student+CoreDataProperties.m */,
+				7E5EE80D1C55F7BD007FDDFB /* Student.h */,
+				7E5EE80E1C55F7BD007FDDFB /* Student.m */,
 				7E5EE7D81C55F77A007FDDFB /* AppDelegate.h */,
 				7E5EE7D91C55F77A007FDDFB /* AppDelegate.m */,
 				7E5EE7DB1C55F77A007FDDFB /* ViewController.h */,
@@ -274,9 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E5EE7E31C55F77A007FDDFB /* CoreData_Test.xcdatamodeld in Sources */,
+				7E5EE80F1C55F7BD007FDDFB /* Student+CoreDataProperties.m in Sources */,
 				7E5EE7DD1C55F77A007FDDFB /* ViewController.m in Sources */,
 				7E5EE7DA1C55F77A007FDDFB /* AppDelegate.m in Sources */,
 				7E5EE7D71C55F77A007FDDFB /* main.m in Sources */,
+				7E5EE8101C55F7BD007FDDFB /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
